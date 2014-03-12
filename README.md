@@ -4,4 +4,4 @@ This repository is under construction, but feel free to have a look around!
 
 #### Index
 
-- [XmlDocument]()
+- [XmlDocument](https://github.com/draftomatic/wildstar/blob/master/XmlDocument.md)
