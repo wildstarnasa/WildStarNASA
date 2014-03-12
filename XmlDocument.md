@@ -9,27 +9,32 @@ XmlDocument can be thought of as a wrapper for Apollo's **XmlDoc**, but with mas
 
 ## Quick Links
 
-1. <a href="#draftotag1">Relationship to XmlDoc</a>
-1. <a href="#draftotag2">XmlDocument and XmlNode</a>
-1. <a href="#draftotag3">Create a Window</a>
-1. <a href="#draftotag4">Create an XML String</a>
-1. <a href="#draftotag5">Traverse a Document's Nodes</a>
-1. <a href="#draftotag6">API Reference</a>
+1. <a href="#relationship-to-xmldoc">Relationship to XmlDoc</a>
+1. <a href="#xmldocument-and-xmlnode">XmlDocument and XmlNode</a>
+1. <a href="#create-a-window">Create a Window</a>
+1. <a href="#create-an-xml-string">Create an XML String</a>
+1. <a href="#traverse-a-documents-nodes">Traverse a Document's Nodes</a>
+1. <a href="#api-reference">API Reference</a>
 
 
-<div id="draftotag1"></div>
 ## Relationship to XmlDoc
 
 Chances are you've used XmlDoc already, because Houston will generate a call to one of its methods when you create a new Addon:
 
     self.xmlDoc = XmlDoc.CreateFromFile("MyAddon.xml")
 
-But what is XmlDoc? Very simply, it's Apollo's in-memory representation of an XML document. Here, the file "MyAddon.xml" is parsed and read into some C++ object, which is given to us as userdata. Take a look at one if you like, however you'll find its methods a bit cryptic. Many of them, such as `AddLine()`, are meant for creating MLWindow markup rather than full-blown Forms. But XmlDocs *can* create Forms, so where are the  immediately wanting methods like `GetChildren()` and `FindChild()`, similar to 
+But what is XmlDoc? Very simply, it's Apollo's in-memory representation of an XML document. Here, the file "MyAddon.xml" is parsed and read into some C++ object, which is given to us as userdata. Take a look at one if you like, however you'll find its methods a bit cryptic. Many of them, such as `AddLine()`, are meant for creating MLWindow markup rather than full-blown Forms. But XmlDocs *can* create Forms, so we find ourselves wanting methods like `GetChildren()` and `FindChild()`, similar to loaded Windows.
 
 With a vanilla XmlDoc, the only solution is to convert the XmlDoc to a table using the `ToTable()` method (or start from a new table), do your thing, then convert it back into an XmlDoc using `XmlDoc.CreateFromTable()`. I won't dive into what this table looks like, because with XmlDocument you don't ever have to see it.
 
 
-<div id="draftotag2"></div>
+## XmlDocument and XmlNode
+
+This library returns two objects - **XmlDocument** and **XmlNode**. An XmlDocument represents an entire XML file with a single root element. Each child element in the document is represented by an XmlNode. 
+
+XmlNodes can exist with or without a document, but we always create a node from an existing document using `XmlDocument:NewNode()`. The node must still then be appended to an existing node in the document, or set as the root node.
+
+
 ## Create a Window
 
     -- Get XmlDocument from Apollo's Package system
@@ -55,19 +60,16 @@ With a vanilla XmlDoc, the only solution is to convert the XmlDoc to a table usi
     tDoc:LoadForm("Form1", nil, nil)
 
 
-<div id="draftotag3"></div>
 ## Create an XML String
 
+Coming soon...
 
 
-
-<div id="draftotag5"></div>
 ## Traverse a Document's Nodes
 
-Assuming we have an XmlNode, often the root node, we can 
+Coming soon...
 
 
-<div id="draftotag6"></div>
 ## API Reference
 
 #### XmlDocument (The Package)
