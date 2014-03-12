@@ -131,7 +131,7 @@ The above factory methods return an object with the following API:
    
    \* *Form documents only*
 
-   Creates a new Control element for this document with Name `strName` and class `strClass`. Classes include "Window," "EditBox," "TabWindow," etc. Note that this method doesn't actually add the new node to the document; you must also append it to another node using `XmlNode:AddChild()`.
+   Creates a new Control element for this document with Name `strName` and Class `strClass`. Classes include "Window," "EditBox," "TabWindow," etc. Note that this method doesn't actually add the new node to the document; you must also append it to another node using `XmlNode:AddChild()`.
 
 -  **XmlDocument:LoadForm(strName, wndParent, tHandler)**
    
