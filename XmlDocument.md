@@ -35,7 +35,27 @@ With a vanilla XmlDoc, the only solution is to convert the XmlDoc to a table usi
 ***
 ## Create a Window
 
-
+    -- Get XmlDocument from Apollo's Package system
+    local XmlDocument = Apollo.GetPackage("Drafto:Lib:XmlDocument-1.0").tPackage
+    
+    -- Create a new Forms document
+    local tDoc = XmlDocument.NewForm()
+    
+    -- Create a new Form for the document
+    local tForm = tDoc:NewFormNode("Form1", {
+      AnchorPoints = {0,0,0,0},
+      AnchorOffsets = {100,100,300,220},
+      Picture = true,
+      Sprite = "WhiteFill",
+      BGColor = "red",
+      Moveable = true
+    })
+    
+    -- Add the new Form to the document root
+    tDoc:GetRoot():AddChild(tForm)
+    
+    -- Load the Form as a Window
+    tDoc:LoadForm("Form1", nil, nil)
 
 
 <div id="draftotag3"></div>
