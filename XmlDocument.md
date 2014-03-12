@@ -7,7 +7,6 @@
 XmlDocument can be thought of as a wrapper for Apollo's **XmlDoc**, but with massively extended functionality and a legitimate [DOM](http://en.wikipedia.org/wiki/Document_Object_Model) API.
 
 
-***
 ## Quick Links
 
 1. <a href="#draftotag1">Relationship to XmlDoc</a>
@@ -19,7 +18,6 @@ XmlDocument can be thought of as a wrapper for Apollo's **XmlDoc**, but with mas
 
 
 <div id="draftotag1"></div>
-***
 ## Relationship to XmlDoc
 
 Chances are you've used XmlDoc already, because Houston will generate a call to one of its methods when you create a new Addon:
@@ -32,7 +30,6 @@ With a vanilla XmlDoc, the only solution is to convert the XmlDoc to a table usi
 
 
 <div id="draftotag2"></div>
-***
 ## Create a Window
 
     -- Get XmlDocument from Apollo's Package system
@@ -59,21 +56,18 @@ With a vanilla XmlDoc, the only solution is to convert the XmlDoc to a table usi
 
 
 <div id="draftotag3"></div>
-***
 ## Create an XML String
 
 
 
 
 <div id="draftotag5"></div>
-***
 ## Traverse a Document's Nodes
 
 Assuming we have an XmlNode, often the root node, we can 
 
 
 <div id="draftotag6"></div>
-***
 ## API Reference
 
 #### XmlDocument (The Package)
