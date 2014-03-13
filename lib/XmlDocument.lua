@@ -247,12 +247,9 @@ function XmlNode.New(tDoc, strTag, tAttributes)
 		-- Recursion variables
 		nLevel = true and nLevel or 0
 		
-		Print("serializing node " .. strTag .. " at level " .. nLevel)
-		
 		-- Indenting
 		local strIndent = ""
 		for i=1,nLevel do
-			Print("adding to indent")
 			strIndent = strIndent .. "  "
 		end
 		
