@@ -1,5 +1,7 @@
 # XmlDocument
 
+[Download](https://github.com/draftomatic/wildstar/blob/master/lib/XmlDocument.lua)
+
 > XmlDocument = Apollo.GetPackage("Drafto:Lib:XmlDocument-1.0").tPackage 
 
 **XmlDocument** is an XML manipulation library for Apollo. Its main purpose is to build Form documents purely from Lua, which can then be loaded as Windows in your Addon. This allows us to create arbitrary Windows on-the-fly, at run-time, without touching the file system. However, XmlDocument can also be used to create, modify, and serialize arbitrary XML documents. 
