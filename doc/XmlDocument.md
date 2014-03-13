@@ -200,6 +200,10 @@ An XmlNode is an object representing a single XML element, or node. `XmlDocument
 
    Returns the inner text of this node. Alternatively, if `strText` is given, sets the inner text to `strText`.
 
+-  **XmlNode:Clone()**
+
+   Returns a shallow copy of this node. Deep clone coming soon. 
+
 -  **XmlNode:EachChild(fn)**
 
    Traverses each child of this node recursively, repeatedly calling `fn` with the current node as an argument.

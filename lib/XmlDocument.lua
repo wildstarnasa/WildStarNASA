@@ -216,6 +216,10 @@ function XmlNode.New(tDoc, strTag, tAttributes)
 		end)
 	end
 	
+	function self:Clone()
+		return tDoc:NewNode(strTag, tAttributes)
+	end
+	
 	function self:ToTable(tXml)
 		-- This node
 		local tNode = {__XmlNode = strTag}
