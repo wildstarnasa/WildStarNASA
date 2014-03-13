@@ -288,5 +288,5 @@ function XmlNode.New(tDoc, strTag, tAttributes)
 end
 
 -- Register Packages
-Apollo.RegisterPackage(XmlDocument, "Drafto:Lib:XmlDocument-1.0", 2, {})
+Apollo.RegisterPackage(XmlDocument, "Drafto:Lib:XmlDocument-1.0", 3, {})
 --Apollo.RegisterPackage(XmlNode, "Drafto:Lib:XmlNode-2.0", 1, {})
