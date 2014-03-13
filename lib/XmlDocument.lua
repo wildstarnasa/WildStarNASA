@@ -156,7 +156,10 @@ function XmlNode.New(tDoc, strTag, tAttributes)
 		return table.remove(tChildren, nId)
 	end
 
-	-- Set or get a single attribute for this node
+	function self:GetTag()
+		return strTag
+	end
+	
 	function self:Attribute(strName, value)
 		if value ~= nil then
 			tAttributes[strName] = value

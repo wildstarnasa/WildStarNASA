@@ -186,6 +186,10 @@ An XmlNode is an object representing a single XML element, or node. `XmlDocument
 
    Removes and returns the child node at index `nId`.
 
+-  **XmlNode:GetTag()**
+
+   Returns the tag name of this node.
+
 -  **XmlNode:Attribute(strName, value)**
 
    Returns the value of attribute `strName`. Alternatively, if `value` is given, sets attribute `strName` to `value`.
