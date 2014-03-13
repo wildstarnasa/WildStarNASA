@@ -2,6 +2,7 @@
 <Addon Author="draftomatic" APIVersion="7" Name="JScanBot" Description="">
     <Script Name="inspect.lua"/>
     <Script Name="GeminiLogging.lua"/>
+    <Script Name="drafto_LuaUtils.lua"/>
     <Script Name="JScanBot.lua"/>
     <Form Name="JScanBot.xml"/>
 </Addon>
