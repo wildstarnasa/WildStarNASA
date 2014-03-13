@@ -77,7 +77,7 @@ XmlNodes can exist with or without a document, but we always create a node from 
     
     -- Add another child    
     local div = xDoc:NewNode("div", {
-      class = "wrapper",
+      class = "clickableDiv",
       style = "width:100px; height:100px; background-color:#16C;",
       onclick = "javascript:console.log('Hello');"
     })
