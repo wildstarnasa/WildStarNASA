@@ -64,7 +64,22 @@ XmlNodes can exist with or without a document, but we always create a node from 
 
 ## Create an XML String
 
-Coming soon...
+    local xDoc = XmlDocument.New()
+    
+    local html = xDoc:NewNode("html")
+    xDoc:SetRoot(html)
+    
+    local body = xDoc:NewNode("body")
+    html:AddChild(body)
+    
+    local div = xDoc:NewNode("div", {
+      class = "wrapper",
+      style = "width:100px; height:100px; background-color:#16C;",
+      onclick = "javascript:console.log('Hello');"
+    })
+    body:AddChild(div)
+    
+    Print(xDoc:Serialize())
 
 
 ## Traverse a Document's Nodes
