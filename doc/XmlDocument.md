@@ -64,14 +64,18 @@ XmlNodes can exist with or without a document, but we always create a node from 
 
 ## Create an XML String
 
+    -- Create a new generic document    
     local xDoc = XmlDocument.New()
     
+    -- Set the root node    
     local html = xDoc:NewNode("html")
     xDoc:SetRoot(html)
     
+    -- Add a child    
     local body = xDoc:NewNode("body")
     html:AddChild(body)
     
+    -- Add another child    
     local div = xDoc:NewNode("div", {
       class = "wrapper",
       style = "width:100px; height:100px; background-color:#16C;",
@@ -79,6 +83,7 @@ XmlNodes can exist with or without a document, but we always create a node from 
     })
     body:AddChild(div)
     
+    -- Serialize and Print    
     Print(xDoc:Serialize())
 
 
