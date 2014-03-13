@@ -243,18 +243,22 @@ function XmlNode.New(tDoc, strTag, tAttributes)
 		return tNode
 	end
 	
-	function self:Serialize(strXml, nLevel)
+	function self:Serialize(nLevel)
 		-- Recursion variables
 		nLevel = true and nLevel or 0
-		local strXml = true and strXml or ""
+		
+		Print("serializing node " .. strTag .. " at level " .. nLevel)
 		
 		-- Indenting
-		for i=0,nLevel do
-			strXml = strXml .. "  "
+		local strIndent = ""
+		for i=1,nLevel do
+			Print("adding to indent")
+			strIndent = strIndent .. "  "
 		end
 		
+		local strXml = strIndent .. "<" .. strTag
+		
 		-- Start tag
-		strXml = "<" .. strTag
 		for k,v in pairs(tAttributes) do
 			strXml = strXml .. " " .. k .. "=\"" .. tostring(v) .. "\""
 		end
@@ -264,14 +268,14 @@ function XmlNode.New(tDoc, strTag, tAttributes)
 		if #tChildren > 0 then
 			-- Children add themselves to string
 			for i,v in ipairs(tChildren) do
-				v:Serialize(strXml, nLevel + 1)
+				strXml = strXml .. v:Serialize(nLevel + 1)
 			end
 		elseif strText then
 			strXml = strXml .. strText .. "\n"
 		end
 		
 		-- End tag
-		strXml = strXml .. "</" .. strTag .. ">\n"
+		strXml = strXml .. strIndent .. "</" .. strTag .. ">\n"
 		
 		return strXml
 	end
@@ -280,5 +284,5 @@ function XmlNode.New(tDoc, strTag, tAttributes)
 end
 
 -- Register Packages
-Apollo.RegisterPackage(XmlDocument, "Drafto:Lib:XmlDocument-1.0", 1, {})
+Apollo.RegisterPackage(XmlDocument, "Drafto:Lib:XmlDocument-1.0", 2, {})
 --Apollo.RegisterPackage(XmlNode, "Drafto:Lib:XmlNode-2.0", 1, {})
