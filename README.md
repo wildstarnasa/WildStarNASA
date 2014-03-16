@@ -11,15 +11,19 @@ You'll also find various user-created developer tools. Anyone is welcome to host
 
 #### Gemini
 
-GeminiConsole [Download]() [API Documentation]()
-GeminiEditor [Download]() [API Documentation]()
-GeminiDesigner [Download]() [API Documentation]()
-GeminiLogging [Download]() [API Documentation]()
+- **GeminiConsole**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
+- **GeminiEditor**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
+- **GeminiDesigner**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
+- **GeminiLogging**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
+
 
 #### Addons and Tools by draftomatic
 
-XmlDocument [Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua) [API Documentation](https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md)
-PixiePlot [Download]() [API Documentation]()
-JScanBot [Download]() [API Documentation]()
-HUDControl [Download]() [API Documentation]()
+- **XmlDocument**&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua)&nbsp;&nbsp;&nbsp;&nbsp;[API Documentation](https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md)
+
+- **PixiePlot**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
+
+- **JScanBot**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
+
+- **HUDControl**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
 
