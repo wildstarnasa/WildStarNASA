@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Addon Author="Gemini Team" APIVersion="7" Name="GeminiDesigner" Description="Used for creating Wildstar Addon GUIs in the game itself, and outputting them to a number of formats.">
+    <Script Name="inspect.lua"/>
+    <Script Name="GeminiLogging.lua"/>
+    <Script Name="GeminiDesigner.lua"/>
+    <Script Name="XmlDocument.lua"/>
+    <Form Name="GeminiDesigner.xml"/>
+</Addon>

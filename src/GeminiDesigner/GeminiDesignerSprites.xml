@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sprites>
+    <Sprite Name="WindowIcon" Cycle="1">
+        <Frame Texture="GeminiDesigner\textures\GDIcons.tga" x0="0" x1="0" x2="0" x3="200" x4="200" x5="200" y0="0" y1="0" y2="0" y3="200" y4="200" y5="200" Stretchy="1" HotspotX="0" HotspotY="0" Duration="1.000" StartColor="ffffffff" EndColor="ffffffff"/>
+    </Sprite>
+    <Sprite Name="ButtonIcon" Cycle="1">
+        <Frame Texture="GeminiDesigner\textures\GDIcons.tga" x0="200" x1="200" x2="200" x3="400" x4="400" x5="400" y0="0" y1="0" y2="0" y3="200" y4="200" y5="200" Stretchy="1" HotspotX="0" HotspotY="0" Duration="1.000" StartColor="ffffffff" EndColor="ffffffff"/>
+    </Sprite>
+</Sprites>
