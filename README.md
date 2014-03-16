@@ -11,19 +11,15 @@ You'll also find various user-created developer tools. Anyone is welcome to host
 
 #### Gemini
 
-h1 | h2 | h3
---- | --- | ---
-GeminiConsole | [Download]() | [API Documentation]()
-GeminiEditor | [Download]() | [API Documentation]()
-GeminiDesigner | [Download]() | [API Documentation]()
-GeminiLogging | [Download]() | [API Documentation]()
+GeminiConsole [Download]() [API Documentation]()
+GeminiEditor [Download]() [API Documentation]()
+GeminiDesigner [Download]() [API Documentation]()
+GeminiLogging [Download]() [API Documentation]()
 
 #### Addons and Tools by draftomatic
 
-h1 | h2 | h3
---- | --- | ---
-XmlDocument | [Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua) | [API Documentation](https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md)
-PixiePlot | [Download]() | [API Documentation]()
-JScanBot | [Download]() | [API Documentation]()
-HUDControl | [Download]() | [API Documentation]()
+XmlDocument [Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua) [API Documentation](https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md)
+PixiePlot [Download]() [API Documentation]()
+JScanBot [Download]() [API Documentation]()
+HUDControl [Download]() [API Documentation]()
 
