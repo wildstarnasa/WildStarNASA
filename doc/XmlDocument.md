@@ -1,6 +1,6 @@
 # XmlDocument
 
-[Download](https://raw.github.com/draftomatic/wildstar/master/doc/XmlDocument.md)
+[Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua)
 
 > XmlDocument = Apollo.GetPackage("Drafto:Lib:XmlDocument-1.0").tPackage 
 
