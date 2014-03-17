@@ -14,7 +14,15 @@
 
 /* General */
 body {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
 	background-image: url('../images/nexus-space2.png');
+	background-repeat: repeat;
+	background-position: top left;
+	background-attachment: fixed;
 }
 #main_content_wrap {
 	max-width: 1200px;
@@ -101,9 +109,16 @@ header nav a:after {
 
 /* Main */
 div#main_content_wrap {
-	margin-top: 20px;
+	position: absolute;
+	top: 181px;
+	bottom: 0px;
+	left: 50%;
+	width: 1200px;
+	margin-left: -600px;
+	margin-top: 0px;
+	background-color: #EEEEEE;
 }
 section#main_content {
 	max-width: 1200px;
-	padding: 14px 20px;
+	padding: 8px 26px;
 }
