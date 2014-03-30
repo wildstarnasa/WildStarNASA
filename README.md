@@ -14,7 +14,6 @@ This repository hosts all of the tools born out of [WildStar NASA](http://www.wi
 - **GeminiDesigner**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
 - **GeminiLogging**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
 
-               |          |                  
 :------------- |:-------- | :----------------
 GeminiConsole  | Download | API Documenation
 
