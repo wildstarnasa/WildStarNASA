@@ -9,53 +9,46 @@ This repository hosts all of the tools born out of [WildStar NASA](http://www.wi
 
 #### Gemini
 
-<table>
-	<tbody>
-		<tr>
-			<td>GeminiConsole</td>
-			<td>Download</td>
-			<td>API Documentation</td>
-		</tr>
-		<tr>
-			<td>GeminiEditor</td>
-			<td>Download</td>
-			<td>API Documentation</td>
-		</tr>
-		<tr>
-			<td>GeminiDesigner</td>
-			<td>Download</td>
-			<td>API Documentation</td>
-		</tr>
-		<tr>
-			<td>GeminiLogging</td>
-			<td>Download</td>
-			<td>API Documentation</td>
-		</tr>
-	</tbody>
-</table>
+<table><tbody>
+	<tr>
+		<td><strong>GeminiConsole</strong></td>
+		<td><a href="">Download</a></td>
+		<td><a href="">API Documentation</a></td>
+	</tr>
+	<tr>
+		<td><strong>GeminiEditor</strong></td>
+		<td><a href="">Download</a></td>
+		<td><a href="">API Documentation</a></td>
+	</tr>
+	<tr>
+		<td><strong>GeminiDesigner</strong></td>
+		<td><a href="">Download</a></td>
+		<td><a href="">API Documentation</a></td>
+	</tr>
+	<tr>
+		<td><strong>GeminiLogging</strong></td>
+		<td><a href="">Download</a></td>
+		<td><a href="">API Documentation</a></td>
+	</tr>
+</tbody></table>
 
 #### Other
 
-<table>
-	<tbody>
-		<tr>
-			<td>**XmlDocument**</td>
-			<td><a href="https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua">Download</a></td>
-			<td><a href="https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md">API Documentation</a></td>
-		</tr>
-		<tr>
-			<td>PixiePlot</td>
-			<td>Download</td>
-			<td>API Documentation</td>
-		</tr>
-		<tr>
-			<td>JScanBot</td>
-			<td>Download</td>
-			<td>API Documentation</td>
-		</tr>
-	</tbody>
-</table>
-
-- ****&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua)&nbsp;&nbsp;&nbsp;&nbsp;[API Documentation](https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md)
-
+<table><tbody>
+	<tr>
+		<td><strong>XmlDocument</strong></td>
+		<td><a href="https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua">Download</a></td>
+		<td><a href="https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md">API Documentation</a></td>
+	</tr>
+	<tr>
+		<td><strong>PixiePlot</strong></td>
+		<td><a href="">Download</a></td>
+		<td><a href="">API Documentation</a></td>
+	</tr>
+	<tr>
+		<td><strong>JScanBot</strong></td>
+		<td><a href="">Download</a></td>
+		<td><a href="">API Documentation</a></td>
+	</tr>
+</tbody></table>
 
