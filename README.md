@@ -17,6 +17,16 @@ This repository hosts all of the tools born out of [WildStar NASA](http://www.wi
 :------------- |:-------- | :----------------
 GeminiConsole  | Download | API Documenation
 
+<table>
+	<tbody>
+		<tr>
+			<td>GeminiConsole</td>
+			<td>Download</td>
+			<td>API Documentation</td>
+		</tr>
+	</tbody>
+</table>
+
 #### Other
 
 - **XmlDocument**&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua)&nbsp;&nbsp;&nbsp;&nbsp;[API Documentation](https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md)
