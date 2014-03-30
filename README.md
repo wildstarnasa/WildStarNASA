@@ -9,18 +9,25 @@ This repository hosts all of the tools born out of [WildStar NASA](http://www.wi
 
 #### Gemini
 
-- **GeminiConsole**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
-- **GeminiEditor**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
-- **GeminiDesigner**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
-- **GeminiLogging**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
-
-:------------- |:-------- | :----------------
-GeminiConsole  | Download | API Documenation
-
 <table>
 	<tbody>
 		<tr>
 			<td>GeminiConsole</td>
+			<td>Download</td>
+			<td>API Documentation</td>
+		</tr>
+		<tr>
+			<td>GeminiEditor</td>
+			<td>Download</td>
+			<td>API Documentation</td>
+		</tr>
+		<tr>
+			<td>GeminiDesigner</td>
+			<td>Download</td>
+			<td>API Documentation</td>
+		</tr>
+		<tr>
+			<td>GeminiLogging</td>
 			<td>Download</td>
 			<td>API Documentation</td>
 		</tr>
@@ -29,10 +36,26 @@ GeminiConsole  | Download | API Documenation
 
 #### Other
 
-- **XmlDocument**&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua)&nbsp;&nbsp;&nbsp;&nbsp;[API Documentation](https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md)
+<table>
+	<tbody>
+		<tr>
+			<td>**XmlDocument**</td>
+			<td><a href="https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua">Download</a></td>
+			<td><a href="https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md">API Documentation</a></td>
+		</tr>
+		<tr>
+			<td>PixiePlot</td>
+			<td>Download</td>
+			<td>API Documentation</td>
+		</tr>
+		<tr>
+			<td>JScanBot</td>
+			<td>Download</td>
+			<td>API Documentation</td>
+		</tr>
+	</tbody>
+</table>
 
-- **PixiePlot**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
-
-- **JScanBot**&nbsp;&nbsp;&nbsp;&nbsp;Download&nbsp;&nbsp;&nbsp;&nbsp;API Documentation
+- ****&nbsp;&nbsp;&nbsp;&nbsp;[Download](https://raw.github.com/draftomatic/wildstar/master/lib/XmlDocument.lua)&nbsp;&nbsp;&nbsp;&nbsp;[API Documentation](https://github.com/draftomatic/wildstar/blob/master/doc/XmlDocument.md)
 
 
