@@ -1,8 +1,8 @@
 # h1
 
-[Download](https://github.com/draftomatic/wildstar/blob/master/)
+[Download](https://raw.github.com/draftomatic/wildstar/blob/master/)
 
-> Package = Apollo.GetPackage("").tPackage 
+> `local Package = Apollo.GetPackage("").tPackage`
 
 description
 
@@ -15,7 +15,8 @@ paragraph
 
     code
     
-#### XmlDocument (The Package)
+
+#### h4
 
 paragraph
 

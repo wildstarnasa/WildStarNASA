@@ -4,7 +4,7 @@ Hi there! Here you'll find a bunch of resources for creating Addons for the vide
 
 This repository hosts all of the tools and documentation born out of [WildStar NASA](http://www.wildstarnasa.com) (Nexus Addon Standards Association), which is an Addon developer community trying to make Addon development as accessible as possible. One of the main NASA projects is **Gemini**, a set of open source Addons, Packages, and other tools for developers. Much of the private NASA Git repository has also been moved here, including NASADocs.
 
-Another community resource is the [NASA Wiki](wiki.wildstarnasa.com).
+Another community resource is the [NASA Wiki](http://wiki.wildstarnasa.com).
 
 
 ### Projects
