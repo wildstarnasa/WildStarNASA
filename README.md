@@ -63,3 +63,4 @@ NASADocs was a private Git repository hosted by Packetdancer which was used for 
 - [Carbine Addons](docs/Carbine Addons)
 - [Events](docs/Events)
 
+If you contributed to the old NASADocs and your work isn't here yet, feel free to add it! However, since much of NASADocs is from before the NDA lift, I would prefer for things to come from the latest WildStar build.
