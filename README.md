@@ -59,7 +59,7 @@ Another community resource is the [NASA Wiki](http://wiki.wildstarnasa.com).
 
 NASADocs was a private Git repository hosted by Packetdancer which was used for collaboration during closed beta. I've moved the latest files here:
 
-- [Global Environment (_G) Dumps]('docs/_G Dumps')
-- [Carbine Addons]('docs/Carbine Addons')
-- [Events]('docs/Events')
+- [Global Environment (_G) Dumps](docs/_G Dumps)
+- [Carbine Addons](docs/Carbine Addons)
+- [Events](docs/Events)
 
