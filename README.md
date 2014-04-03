@@ -13,9 +13,9 @@ The repository is structured similarly to the old NASA repository. Projects have
 
 I've made folders in NASADocs for the different types of community documentation there: 
 
-- [Global Environment (_G) Dumps](docs/_G Dumps)
-- [Carbine Addons](docs/Carbine Addons)
-- [Apollo Events](docs/Events)
+- [Global Environment (_G) Dumps](https://github.com/wildstarnasa/NASADocs/_G%20Dumps)
+- [Carbine Addons](https://github.com/wildstarnasa/NASADocs/Carbine Addons)
+- [Apollo Events](https://github.com/wildstarnasa/NASADocs/Events)
 
 If you contributed to the old NASADocs and your work isn't here yet, feel free to add it! However, since much of NASADocs is from before the NDA lift, it's preferable for things to come from the latest WildStar build.
 
