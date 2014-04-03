@@ -28,12 +28,14 @@ If you contributed to the old NASADocs and your work isn't here yet, feel free t
 - [GeminiDesigner](https://github.com/wildstarnasa/GeminiDesigner)
 - [GeminiEditor](https://github.com/wildstarnasa/GeminiEditor)
 - [GeminiLogging](https://github.com/wildstarnasa/GeminiLogging)
+- [GeminiProfiler](https://github.com/wildstarnasa/GeminiProfiler)
 
 
 #### Other
 
 - [JScanBot](https://github.com/wildstarnasa/JScanBot)
 - [PixiePlot](https://github.com/wildstarnasa/PixiePlot)
+- [Rover](https://github.com/wildstarnasa/Rover)
 - [XmlDocument](https://github.com/wildstarnasa/XmlDocument)
 
 
