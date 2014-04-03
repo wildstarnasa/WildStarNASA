@@ -29,28 +29,6 @@ If you contributed to the old NASADocs and your work isn't here yet, feel free t
 - [GeminiEditor](https://github.com/wildstarnasa/GeminiEditor)
 - [GeminiLogging](https://github.com/wildstarnasa/GeminiLogging)
 
-<table><tbody>
-	<tr>
-		<td><strong>GeminiConsole</strong></td>
-		<td><a href="projects/GeminiConsole">API Documentation</a></td>
-		<td><a href="">Download</a></td>
-	</tr>
-	<tr>
-		<td><strong>GeminiDesigner</strong></td>
-		<td><a href="projects/GeminiDesigner">API Documentation</a></td>
-		<td><a href="">Download</a></td>
-	</tr>
-	<tr>
-		<td><strong>GeminiEditor</strong></td>
-		<td><a href="projects/GeminiEditor">API Documentation</a></td>
-		<td><a href="">Download</a></td>
-	</tr>
-	<tr>
-		<td><strong>GeminiLogging</strong></td>
-		<td><a href="projects/GeminiLogging">API Documentation</a></td>
-		<td><a href="">Download</a></td>
-	</tr>
-</tbody></table>
 
 #### Other
 
@@ -58,20 +36,4 @@ If you contributed to the old NASADocs and your work isn't here yet, feel free t
 - [PixiePlot](https://github.com/wildstarnasa/PixiePlot)
 - [XmlDocument](https://github.com/wildstarnasa/XmlDocument)
 
-<table><tbody>
-	<tr>
-		<td><strong>JScanBot</strong></td>
-		<td><a href="projects/JScanBot">API Documentation</a></td>
-		<td><a href="">Download</a></td>
-	</tr>
-	<tr>
-		<td><strong>PixiePlot</strong></td>
-		<td><a href="projects/PixiePlot">API Documentation</a></td>
-		<td><a href="">Download</a></td>
-	</tr>
-	<tr>
-		<td><strong>XmlDocument</strong></td>
-		<td><a href="projects/XmlDocument">API Documentation</a></td>
-		<td><a href="https://raw.github.com/draftomatic/wildstar/master/projects/XmlDocument/XmlDocument.lua">Download</a></td>
-	</tr>
-</tbody></table>
+
