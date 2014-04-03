@@ -1,0 +1,24 @@
+[submodule "NASADocs"]
+	path = NASADocs
+	url = https://github.com/wildstarnasa/NASADocs.git
+[submodule "GeminiConsole"]
+	path = GeminiConsole
+	url = https://github.com/wildstarnasa/GeminiConsole.git
+[submodule "GeminiLogging"]
+	path = GeminiLogging
+	url = https://github.com/wildstarnasa/GeminiLogging.git
+[submodule "GeminiEditor"]
+	path = GeminiEditor
+	url = https://github.com/wildstarnasa/GeminiEditor.git
+[submodule "GeminiDesigner"]
+	path = GeminiDesigner
+	url = https://github.com/wildstarnasa/GeminiDesigner.git
+[submodule "JScanBot"]
+	path = JScanBot
+	url = https://github.com/wildstarnasa/JScanBot.git
+[submodule "XmlDocument"]
+	path = XmlDocument
+	url = https://github.com/wildstarnasa/XmlDocument.git
+[submodule "PixiePlot"]
+	path = PixiePlot
+	url = https://github.com/wildstarnasa/PixiePlot.git
