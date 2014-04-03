@@ -1,6 +1,6 @@
 ## WildStar Tools, Packages, and Documentation
 
-Hi there! Here you'll find a bunch of resources for creating Addons for the videogame [Wildstar](http://http://www.wildstar-online.com). Anyone is welcome to help with a project, fork one, or start their own!
+Hi there! Here you'll find a bunch of resources for creating Addons for the videogame [WildStar](http://http://www.wildstar-online.com). Anyone is welcome to help with a project, fork one, or start their own!
 
 This repository hosts all of the tools and documentation born out of [WildStar NASA](http://www.wildstarnasa.com) (Nexus Addon Standards Association), which is an Addon developer community trying to make Addon development as accessible as possible. One of the main NASA projects is **Gemini**, a set of open source Addons, Packages, and other tools for developers. Much of the private NASA Git repository has also been moved here, including NASADocs.
 
