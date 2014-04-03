@@ -22,3 +22,9 @@
 [submodule "PixiePlot"]
 	path = PixiePlot
 	url = https://github.com/wildstarnasa/PixiePlot.git
+[submodule "GeminiProfiler"]
+	path = GeminiProfiler
+	url = https://github.com/wildstarnasa/GeminiProfiler.git
+[submodule "Rover"]
+	path = Rover
+	url = https://github.com/wildstarnasa/Rover.git
